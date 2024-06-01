@@ -1,0 +1,137 @@
+.meteo-card-wrapper {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: linear-gradient(45deg, #252a3fcc 0%, #131522cc 100%);
+  border-radius: 7em 5px 5em 5px;
+  color: #fff;
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0px 0px 40px #1f1f1f;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "body body body"
+    "body body body"
+    "body body body"
+    "footer footer footer";
+}
+.card-header {
+  grid-area: header;
+  padding: 0.5em 1em 0 5em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.card-body {
+  grid-area: body;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5em;
+}
+.city-infos {
+  border-radius: 5px 3em 5px 3em;
+  background: #eef0f2;
+  color: #131522;
+  box-shadow: 15px 5px 25px #101010;
+  transform: translateX(-45px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 120px;
+  width: 300px;
+}
+.city-infos h3,
+.city-infos h4 {
+  margin: 0;
+}
+
+.card-img {
+  border-radius: 50%;
+  width: 5.3em;
+  height: 5.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-img img {
+  width: 7.55em;
+  height: 7.55em;
+  border-radius: 50%;
+}
+.card-footer {
+  grid-area: footer;
+  text-align: left;
+  margin-left: 1.5rem;
+}
+/*
+
+.card-infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: clamp(2rem, 24px, 3rem);
+}
+
+.card img {
+  width: 4.5em;
+  height: 4.5em;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #1f1f1f;
+}
+
+.card-img {
+  border-radius: 50%;
+  width: 5.3em;
+  height: 5.3em;
+  position: absolute;
+  right: -1.4em;
+  top: 7.6em;
+  transform: translate(-50%, -50%);
+}
+
+.city-infos {
+  position: absolute;
+  left: -1.5em;
+  top: 4.5em;
+  padding: 0.7em 2.5em;
+  border-radius: 5px 3em 5px 3em;
+  background: #eef0f2;
+  color: #131522;
+  box-shadow: 15px 5px 25px #101010;
+}
+
+.card-infos h4 {
+  margin: 0;
+}
+
+.card-body {
+  padding: 1.5em;
+  margin: 1.5em 0;
+  width: 60%;
+}
+
+.card-body p {
+  letter-spacing: 2px;
+  font-size: 1.3em;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+  bottom: 0.75em;
+} */

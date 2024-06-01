@@ -1,0 +1,20 @@
+{
+  "01d": "Temps dégagé",
+  "01n": "Temps dégagé",
+  "02d": "Temps légèrement nuageux",
+  "02n": "Temps légèrement nuageux",
+  "03d": "Temps nuageux",
+  "03n": "Temps nuageux",
+  "50d": "Temps nuageux",
+  "50n": "Temps nuageux",
+  "04d": "Temps couvert",
+  "04n": "Temps couvert",
+  "09d": "Temps pluvieux",
+  "09n": "Temps pluvieux",
+  "10d": "Averses",
+  "10n": "Averses",
+  "11d": "Temps orageux",
+  "11n": "Temps orageux",
+  "13d": "Temps neigeux",
+  "13n": "Temps neigeux"
+}
